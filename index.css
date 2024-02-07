@@ -3,22 +3,27 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #eeeeee;
+    background-color: #ffffff;
 }
 
 header {
-    background-color: #5f532a;
-    color: #eeeeee;
-    padding: 1rem 0;
+    background-color: #779399;
+    color: #ffffff;
+    color: #263336;
+    /*background-color: #273538;
+    color: #ffffff;*/
+    /*padding: 1rem 0;*/
     font-family: 'Abril Fatface', serif;
+    /*max-height: 30vh;*/
 }
 
 h2 {
     text-align: center;
     font-family: 'Abril Fatface', serif;
+    color:#ffffff;
 }
 
 .container {
@@ -31,31 +36,37 @@ h2 {
 }
 
 .title {
-    margin-left: 1rem;
+    
+    text-align: center;
+    /*margin-left: 1rem;*/
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 3.0rem;
 }
 
 .nav-bar {
-    
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .nav-bar li {
+    align-items: right;
     margin-left: 1rem;
     display: inline;
     margin-right: 1rem;
 }
 
 .nav-bar a {
-    color: #eeeeee;
+    align-items: right;
+    color: #3c5257;
     text-decoration: none;
 }
 
 .nav-bar a:hover {
-    color: #bbbbbb;
+    color: #ffbf49;
 }
 
 .gallery {
@@ -72,9 +83,9 @@ h2 {
     margin-bottom: 1rem;
     cursor: pointer;
     background-color: #eeeeee;
-    border: 1px solid #bbbbbb;
+    border: 7px solid #779399;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .thumbnail_rotate {
@@ -84,15 +95,15 @@ h2 {
     margin-bottom: 1rem;
     cursor: pointer;
     background-color: #eeeeee;
-    border: 1px solid #bbbbbb;
+    border: 7px solid #779399;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     
 
 }
 
 .thumbnail:hover {
-    background-color: #bbbbbb;
+    background-color: #ffbf49;
 }
 
 #main-display-wrapper {
@@ -103,10 +114,10 @@ h2 {
     width: 900px;
     
     margin: 0 auto;
-    background-color: #eeeeee;
-    border: 5px solid #bbbbbb;
+    background-color:  #ffbf49;
+    border: 7px solid #779399;
     padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     /*background: #000000;
     border-radius: 10%;*/
     position: relative;
@@ -117,26 +128,45 @@ h2 {
 
 }
 #main-display {
+    background-color: #ffffff;
     max-height: 100%;
     max-width: 100%;
 }
+
+
 .main-display {
+    
     flex-grow: 1;
     height: 100%;
+    width: 50%;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /*border-radius: 10%;*/
+}
+.main-display-text {
+    
+    flex-grow: 1;
+    flex-direction: column;
+    height: 96%;
     width: 50%;
     padding: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
     /*border-radius: 10%;*/
 }
 #main-display p {
+    background-color: #ffffff;
     max-width: 35%; /* Adjust the paragraph width as needed */
     font-size: 1rem; /* Adjust the font size as needed */
     padding: 10px; /* Adjust the padding as needed for spacing */
 }
 #main-display-text {
-    
+    background-color: #ffffff;
     font-size: 1rem;
     padding: 10px;
    
@@ -147,6 +177,15 @@ h2 {
     bottom: 5px;
     left: 0;
 }
+
+hr {
+    border: none;
+    border-top: 2px solid #779399;
+    /*color: rgb(211, 71, 36);*/
+    
+    height: 1px;
+    margin: 20px 0;
+  }
 
 /*.main-display-container {
     display: flex;
@@ -169,7 +208,8 @@ h2 {
 
 footer {
     margin-top: auto;
-    background-color: #5f532a;
+    font-family: 'Abril Fatface', serif;
+    background-color: #779399;
     color: #eeeeee;
     text-align: center;
     padding: 1rem 0;

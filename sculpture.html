@@ -22,7 +22,7 @@
                 <li><a href="index.html" >Home</a></li>
                 <li><a href="traditional.html">Traditional</a></li>
                 <li><a href="digital.html">Digital</a></li>
-                <li><a style="color:rgb(28, 16, 10)" href="sculpture.html">Sculpture</a></li>
+                <li><a style="color:rgb(211, 71, 36);" href="sculpture.html">Sculpture</a></li>
                 <li><a href="3Dmodels.html">3D Models</a></li>
                 <li><a href="Interactive.html">Interactive Art, Games, and Animations</a></li>
                
@@ -38,7 +38,11 @@
             
            <div id="main-display-wrapper">
             <div class="main-display"><img src="media/Sculpture/paludarium.jpg" alt="Main Display" id="main-display"></div>
-            <div class="main-display" id="main-display-text">This is a waterfall that I carved out of expanding foam for my fish paludarium.
+            <div class="main-display-text" id="main-display-text">
+                <div id ="just-text">
+
+                This is a waterfall that I carved out of expanding foam for my fish paludarium in 2021. I also used expanding foam for the &quot;rocks&quot; along the backside of the tank.
+            </div>
             </div>
             </div>
             
@@ -47,21 +51,28 @@
             <hr>
             <!--<p style = "text-align: center">............................................................................................................................</p>-->
             <div class="gallery">
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Sculpture/paludarium.jpg', 'This is a waterfall that I carved out of expanding foam for my fish paludarium in 2022. I also used expanding foam for the &quot;asdrocks&quot;asd along the backside of the tank.')">
+                <div class="thumbnail" 
+                onclick="displayMainImage('media/Sculpture/paludarium.jpg', 'This is a waterfall that I carved out of expanding foam for my fish paludarium in 2021. I also used expanding foam for the &quot;rocks&quot; along the backside of the tank.')" 
+                onmouseover="hoverMainImage('media/Sculpture/paludarium.jpg', 'This is a waterfall that I carved out of expanding foam for my fish paludarium in 2021. I also used expanding foam for the &quot;rocks&quot; along the backside of the tank.')" 
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Sculpture/paludarium.jpg" 
                     alt="Traditional Art" >
                     <p >2021</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Sculpture/skull.jpg', 'This is a fairy house built into the side of a skull that I sculpted out of air dry clay, 1&quot;asd foam board, plaster, wood, sand, glue, and natural elements like small rocks and sticks. The skull was formed by cutting the foam board with a scroll saw, stacking it, rough sanding it so it was rounded, and then using a dremel for details. I then plastered the whole thing, and painted it. The teeth are clay, and so are the mushrooms.')">
+                <div class="thumbnail" 
+                onclick="displayMainImage('media/Sculpture/skull.jpg', 'This is a fairy house built into the side of a skull that I sculpted out of air dry clay, 1&quot;asd foam board, plaster, wood, sand, glue, and natural elements like small rocks and sticks. The skull was formed by cutting the foam board with a scroll saw, stacking it, rough sanding it so it was rounded, and then using a dremel for details. I then plastered the whole thing, and painted it. The teeth are clay, and so are the mushrooms.')" 
+                onmouseover="hoverMainImage('media/Sculpture/skull.jpg', 'This is a fairy house built into the side of a skull that I sculpted out of air dry clay, 1&quot;asd foam board, plaster, wood, sand, glue, and natural elements like small rocks and sticks. The skull was formed by cutting the foam board with a scroll saw, stacking it, rough sanding it so it was rounded, and then using a dremel for details. I then plastered the whole thing, and painted it. The teeth are clay, and so are the mushrooms.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Sculpture/skull.jpg"
                      alt="Digital Art" >
                     <p >2017</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover= 
-                "displayMainImage('media/Sculpture/IMG_9333.jpg', 'This is a piece that I did to hang a deer skull that my friend found in the woods on my wall. I just used dried moss and tacky glue, a wood round, dark wood stain, hot glue and air dry clay, and some paint.')">
-                    <img width = 150 src= "media/Sculpture/IMG_9333.jpg" 
+                <div class="thumbnail" 
+                onclick="displayMainImage('media/Sculpture/IMG_9333.jpg', 'This is a piece that I did to hang a deer skull that my friend found in the woods on my wall. I just used dried moss and tacky glue, a wood round, dark wood stain, hot glue and air dry clay, and some paint.')" 
+                onmouseover= "hoverMainImage('media/Sculpture/IMG_9333.jpg', 'This is a piece that I did to hang a deer skull that my friend found in the woods on my wall. I just used dried moss and tacky glue, a wood round, dark wood stain, hot glue and air dry clay, and some paint.')"
+                onmouseout = "resetToClickedImage()">
+                    
+                <img width = 150 src= "media/Sculpture/IMG_9333.jpg" 
                     alt="Sculpture Art"  >
                     <p>2020</p>
                 </div>

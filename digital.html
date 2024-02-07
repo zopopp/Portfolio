@@ -21,7 +21,7 @@
             <ul class="nav-bar">
                 <li><a href="index.html" >Home</a></li>
                 <li><a href="traditional.html">Traditional</a></li>
-                <li><a style="color:rgb(28, 16, 10)" href="digital.html">Digital</a></li>
+                <li><a style="color:rgb(211, 71, 36);" href="digital.html">Digital</a></li>
                 <li><a href="sculpture.html">Sculpture</a></li>
                 <li><a href="3Dmodels.html">3D Models</a></li>
                 <li><a href="Interactive.html">Interactive Art, Games, and Animations</a></li>
@@ -38,7 +38,11 @@
             
            <div id="main-display-wrapper">
             <div class="main-display"><img src="https://xvavsm6.media.bublupcdn.com/q_FB9AlC5cNOcZEkhc2amA/images/full_007-im-902903a6-ee06-4b9c-a371-41dc16bb0ffd.jpg" alt="Main Display" id="main-display"></div>
-            <div class="main-display" id="main-display-text">This is a Photoshop piece that I did with photographs that I took. I placed an image of the turtle, Testudo, that represents my school, the University of Maryland, and put him in my fishtank, with plants and algae on him. I also added my frog Kenny to the background.
+            <div class="main-display-text" id="main-display-text">
+                <div id ="just-text">
+
+                This is a Photoshop piece that I did with photographs that I took. I placed an image of the turtle, Testudo, that represents my school, the University of Maryland, and put him in my fishtank, with plants and algae on him. I also added my frog Kenny to the background.
+            </div>
             </div>
             </div>
             
@@ -47,39 +51,45 @@
             <hr>
             <!--<p style = "text-align: center">............................................................................................................................</p>-->
             <div class="gallery">
-                <div class="thumbnail" onclick="" onmouseover= 
-                "displayMainImage('https://xvavsm6.media.bublupcdn.com/q_FB9AlC5cNOcZEkhc2amA/images/full_007-im-902903a6-ee06-4b9c-a371-41dc16bb0ffd.jpg', 'This is a Photoshop piece that I did with photographs that I took. I placed an image of the turtle, Testudo, that represents my school, the University of Maryland, and put him in my fishtank, with plants and algae on him. I also added my frog Kenny to the background.')">
+                <div class="thumbnail" 
+                onclick="displayMainImage('https://xvavsm6.media.bublupcdn.com/q_FB9AlC5cNOcZEkhc2amA/images/full_007-im-902903a6-ee06-4b9c-a371-41dc16bb0ffd.jpg', 'This is a Photoshop piece that I did with photographs that I took. I placed an image of the turtle, Testudo, that represents my school, the University of Maryland, and put him in my fishtank, with plants and algae on him. I also added my frog Kenny to the background.')" onmouseover= 
+                "hoverMainImage('https://xvavsm6.media.bublupcdn.com/q_FB9AlC5cNOcZEkhc2amA/images/full_007-im-902903a6-ee06-4b9c-a371-41dc16bb0ffd.jpg', 'This is a Photoshop piece that I did with photographs that I took. I placed an image of the turtle, Testudo, that represents my school, the University of Maryland, and put him in my fishtank, with plants and algae on him. I also added my frog Kenny to the background.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="https://xvavsm6.media.bublupcdn.com/q_FB9AlC5cNOcZEkhc2amA/images/full_007-im-902903a6-ee06-4b9c-a371-41dc16bb0ffd.jpg" 
                     alt="Sculpture Art"  >
                     <p>2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('https://xvavsm6.media.bublupcdn.com/YWxMku-pzGotyDT_JM0PPQ/images/full_007-im-892e9f3b-3290-4a3d-8e03-d85ba6b7c584.jpg', 'This is a cover for a portfolio I did for class that was to contain primarily my tech and programming related endevours. It was made in Adobe Illustrator.')">
-                    <img width = 150 src="https://xvavsm6.media.bublupcdn.com/YWxMku-pzGotyDT_JM0PPQ/images/full_007-im-892e9f3b-3290-4a3d-8e03-d85ba6b7c584.jpg" 
+                <!--<div class="thumbnail" onclick="displayMainImage('https://xvavsm6.media.bublupcdn.com/YWxMku-pzGotyDT_JM0PPQ/images/full_007-im-892e9f3b-3290-4a3d-8e03-d85ba6b7c584.jpg', 'This is a cover for a portfolio I did for class that was to contain primarily my tech and programming related endeavors. It was made in Adobe Illustrator.')" onmouseover=
+                "hoverMainImage('https://xvavsm6.media.bublupcdn.com/YWxMku-pzGotyDT_JM0PPQ/images/full_007-im-892e9f3b-3290-4a3d-8e03-d85ba6b7c584.jpg', 'This is a cover for a portfolio I did for class that was to contain primarily my tech and programming related endeavors. It was made in Adobe Illustrator.')" onmouseout="resetToClickedImage()">
+                <img width = 150 src="https://xvavsm6.media.bublupcdn.com/YWxMku-pzGotyDT_JM0PPQ/images/full_007-im-892e9f3b-3290-4a3d-8e03-d85ba6b7c584.jpg" 
                     alt="Traditional Art" >
                     <p>2023</p>
-                </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('https://xvavsm6.media.bublupcdn.com/UoEMdKwNmnrE0vtaYIXiCg/images/full_007-im-76bf23c2-3787-45af-9dc3-3655bf099625.jpg', 'This is a poster that I did for class for a jazz concert. My main goal was to include artistic elements alongside the information, and to accurately pass on the vides of the event through the font and design.')">
+                </div>-->
+                <div class="thumbnail" onclick="displayMainImage('https://xvavsm6.media.bublupcdn.com/UoEMdKwNmnrE0vtaYIXiCg/images/full_007-im-76bf23c2-3787-45af-9dc3-3655bf099625.jpg', 'This is a poster that I did for class for a jazz concert. My main goal was to include artistic elements alongside the information, and to accurately pass on the vibes of the event through the font and design.')" onmouseover=
+                "hoverMainImage('https://xvavsm6.media.bublupcdn.com/UoEMdKwNmnrE0vtaYIXiCg/images/full_007-im-76bf23c2-3787-45af-9dc3-3655bf099625.jpg', 'This is a poster that I did for class for a jazz concert. My main goal was to include artistic elements alongside the information, and to accurately pass on the vibes of the event through the font and design.')" 
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="https://xvavsm6.media.bublupcdn.com/UoEMdKwNmnrE0vtaYIXiCg/images/full_007-im-76bf23c2-3787-45af-9dc3-3655bf099625.jpg"
                      alt="Digital Art" >
                     <p >2023</p>
                 </div>
             
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('https://xvavsm6.media.bublupcdn.com/M8i6088LdcRIx9xl1_0ugQ/images/full_007-im-594b05b4-7e27-4878-80b9-7e9e972ece47.jpg', 'This is a background for one of the scenes in a robot game that I have been working on. I have been making it in Unity, it is a 2D Puzzle game.')">
+                <div class="thumbnail" onclick="displayMainImage('https://xvavsm6.media.bublupcdn.com/M8i6088LdcRIx9xl1_0ugQ/images/full_007-im-594b05b4-7e27-4878-80b9-7e9e972ece47.jpg', 'This is a background for one of the scenes in a robot game that I have been working on. I have been making it in Unity, it is a 2D Puzzle game.')" onmouseover=
+                "hoverMainImage('https://xvavsm6.media.bublupcdn.com/M8i6088LdcRIx9xl1_0ugQ/images/full_007-im-594b05b4-7e27-4878-80b9-7e9e972ece47.jpg', 'This is a background for one of the scenes in a robot game that I have been working on. I have been making it in Unity, it is a 2D Puzzle game.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="https://xvavsm6.media.bublupcdn.com/M8i6088LdcRIx9xl1_0ugQ/images/full_007-im-594b05b4-7e27-4878-80b9-7e9e972ece47.jpg" 
                     alt="" >
                     <p>2021</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('https://xvavsm6.media.bublupcdn.com/I1641-hz09kTtK6qouAwUA/images/full_007-im-5c641b66-4b2e-4024-ac21-839d66ae76fd.gif', 'This is a frame of a single idle animation of the robot protagonist from a game that I have been working on in my free time in Unity. The game is not functioning enough yet so I decided to submit my favorite animation I did of the character, when he initially comes to, and is nervous, broken, and sparking.')">
+                <div class="thumbnail" onclick="displayMainImage('https://xvavsm6.media.bublupcdn.com/I1641-hz09kTtK6qouAwUA/images/full_007-im-5c641b66-4b2e-4024-ac21-839d66ae76fd.gif', 'This is a frame of a single idle animation of the robot protagonist from a game that I have been working on in my free time in Unity. The game is not functioning enough yet so I decided to submit my favorite animation I did of the character, when he initially comes to, and is nervous, broken, and sparking.')" onmouseover=
+                "hoverMainImage('https://xvavsm6.media.bublupcdn.com/I1641-hz09kTtK6qouAwUA/images/full_007-im-5c641b66-4b2e-4024-ac21-839d66ae76fd.gif', 'This is a frame of a single idle animation of the robot protagonist from a game that I have been working on in my free time in Unity. The game is not functioning enough yet so I decided to submit my favorite animation I did of the character, when he initially comes to, and is nervous, broken, and sparking.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="https://xvavsm6.media.bublupcdn.com/I1641-hz09kTtK6qouAwUA/images/full_007-im-5c641b66-4b2e-4024-ac21-839d66ae76fd.gif" 
                     alt="" >
                     <p>2021</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('https://xvavsm6.media.bublupcdn.com/vqC_DLwnLpStUetDJTSBPQ/images/full_007-im-c9ad3d96-0ec2-4e75-a7d9-43611f063599.png', 'This is a peice that I made in Photoshop of my friend using images that I took. I also added my frog Kenny to this peice.')">
+                <div class="thumbnail" onclick="displayMainImage('https://xvavsm6.media.bublupcdn.com/vqC_DLwnLpStUetDJTSBPQ/images/full_007-im-c9ad3d96-0ec2-4e75-a7d9-43611f063599.png', 'This is a piece that I made in Photoshop of my friend using images that I took. I also added my frog Kenny to this piece.')" onmouseover=
+                "hoverMainImage('https://xvavsm6.media.bublupcdn.com/vqC_DLwnLpStUetDJTSBPQ/images/full_007-im-c9ad3d96-0ec2-4e75-a7d9-43611f063599.png', 'This is a piece that I made in Photoshop of my friend using images that I took. I also added my frog Kenny to this piece.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="https://xvavsm6.media.bublupcdn.com/vqC_DLwnLpStUetDJTSBPQ/images/full_007-im-c9ad3d96-0ec2-4e75-a7d9-43611f063599.png" 
                     alt="" >
                     <p>2023</p>

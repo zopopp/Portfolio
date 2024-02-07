@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background('#3c5257');
   for (let circle of circles) {
     circle.move();
     circle.bounce();
@@ -26,7 +26,7 @@ class Circle {
     this.d = diameter;
     this.vx = random(-1, 1);
     this.vy = random(-1, 1);
-    this.gray = random(0, 255);
+    this.green = random(100, 200);
   }
 
   move() {
@@ -44,7 +44,7 @@ class Circle {
   }
 
   display() {
-    fill(this.gray);
+    fill(240, this.green, 15);
     noStroke();
     ellipse(this.x, this.y, this.d);
   }

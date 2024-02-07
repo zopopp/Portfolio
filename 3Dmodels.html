@@ -23,7 +23,7 @@
                 <li><a href="traditional.html">Traditional</a></li>
                 <li><a href="digital.html">Digital</a></li>
                 <li><a href="sculpture.html">Sculpture</a></li>
-                <li><a style="color:rgb(28, 16, 10)" href="3Dmodels.html">3D Models</a></li>
+                <li><a style="color:rgb(211, 71, 36); " href=" 3Dmodels.html ">3D Models</a></li>
                 <li><a href="Interactive.html">Interactive Art, Games, and Animations</a></li>
                
              
@@ -38,8 +38,10 @@
             
            <div id="main-display-wrapper">
             <div class="main-display"><img src="media/Gameinteractivegenerative/Beach/Untitled design.png",  alt="Main Display" id="main-display"></div>
-            <div class="main-display" id="main-display-text">These are the beach renderings that I made in Maya, and the video just looks around the area. But here are a few shots of the included areas. It was the first big project that I did in Maya, and I experienced the dissapointment of moving a project from Maya to Unity for the first time, where it will be rendered in real time, and be much less detailed. The images are renders from Maya, and here is the video from Unity:
-
+            <div class="main-display-text" id="main-display-text">
+                
+                <div id ="just-text">These are still renders of a scene that I 3D modeled fully in Maya. 
+            </div>
             </div>
             </div>
             
@@ -48,15 +50,17 @@
             <hr>
             <!--<p style = "text-align: center">............................................................................................................................</p>-->
             <div class="gallery">
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/Beach/Untitled design.png', 'These are the beach renderings that I made in Maya, and the video just looks around the area. But here are a few shots of the included areas. It was the first big project that I did in Maya, and I experienced the dissapointment of moving a project from Maya to Unity for the first time, where it will be rendered in real time, and be much less detailed. The images are renders from Maya, and here is the video from Unity:')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/Beach/Untitled design.png', 'These are still renders of a scene that I 3D modeled fully in Maya.')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/Beach/Untitled design.png', 'These are still renders of a scene that I 3D modeled fully in Maya.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/Beach/Untitled design.png" 
                     alt="" >
                     <p>2023</p>
                 </div>
                 
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/50s room/old fashioned room.png', 'These are images from my 50s themed living room, which is also displayed in the interactive section because it is interactive. It is a fully developed room that is meant to give a spooky vibe because of the sound and music and the fact that you can only see from the light of your flashlight.')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/50s room/old fashioned room.png', 'These are images from my 50s themed living room, which is also displayed in the interactive section because it is interactive. It is a fully developed room that is meant to give a spooky vibe because of the sound and music and the fact that you can only see from the light of your flashlight.')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/50s room/old fashioned room.png', 'These are images from my 50s themed living room, which is also displayed in the interactive section because it is interactive. It is a fully developed room that is meant to give a spooky vibe because of the sound and music and the fact that you can only see from the light of your flashlight.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/50s room/old fashioned room.png" 
                     alt="" >
                     <p>2023</p>
@@ -67,39 +71,45 @@
                     alt="" >
                     <p>2023</p>
                 </div>-->
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Northrup/Untitled design.png', 'This is from the first Northrup Grumman competition that my team won in the spring of 2023. The competition was to design an IOT device of any type. We chose to create a violence detection software that used machine learning. I created and printed the 3D model in Fusion 360 for the camera casing for this project. Also shown is the paper showing our picture receiving the prize.')">
+                <div class="thumbnail" onclick="displayMainImage('media/Northrup/Untitled design.png', 'This is from the first Northrup Grumman competition that my team won in the spring of 2023. The competition was to design an IOT device of any type. We chose to create a violence detection software that used machine learning. I created and printed the 3D model in Fusion 360 for the camera casing for this project. Also shown is the paper showing our picture receiving the prize.')" onmouseover=
+                "hoverMainImage('media/Northrup/Untitled design.png', 'This is from the first Northrup Grumman competition that my team won in the spring of 2023. The competition was to design an IOT device of any type. We chose to create a violence detection software that used machine learning. I created and printed the 3D model in Fusion 360 for the camera casing for this project. Also shown is the paper showing our picture receiving the prize.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Northrup/Untitled design.png" 
                     alt="" >
                     <p>2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Northrup/northrup2.png', 'This is from the second time my team won the Northrup Grumman competition, in the fall semester of 2023. We were to create either a drone detection software, or a manufacturing default recognition system, and we chose the drone detection software. We created a system that uses machine learning to detect drones as well as their estimated type, distance and size. In order to do this we needed to create a stereo camera system, in which I designed and 3D printed the casing in Fusion 360 to assure that the cameras were at the correct distance and could be adapted to a real world setting. I also designed the front end of the website, shown here, that displays the data detected during each recording or submitted photo to the program.')">
+                <div class="thumbnail" onclick="displayMainImage('media/Northrup/northrup2.png', 'This is from the second time my team won the Northrup Grumman competition, in the fall semester of 2023. We were to create either a drone detection software, or a manufacturing default recognition system, and we chose the drone detection software. We created a system that uses machine learning to detect drones as well as their estimated type, distance and size. In order to do this we needed to create a stereo camera system, in which I designed and 3D printed the casing in Fusion 360 to assure that the cameras were at the correct distance and could be adapted to a real world setting. I also designed the front end of the website, shown here, that displays the data detected during each recording or submitted photo to the program.')" onmouseover=
+                "hoverMainImage('media/Northrup/northrup2.png', 'This is from the second time my team won the Northrup Grumman competition, in the fall semester of 2023. We were to create either a drone detection software, or a manufacturing default recognition system, and we chose the drone detection software. We created a system that uses machine learning to detect drones as well as their estimated type, distance and size. In order to do this we needed to create a stereo camera system, in which I designed and 3D printed the casing in Fusion 360 to assure that the cameras were at the correct distance and could be adapted to a real world setting. I also designed the front end of the website, shown here, that displays the data detected during each recording or submitted photo to the program.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Northrup/northrup2.png" 
                     alt="" >
                     <p>2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/AR Crayfish/cray still.png', 'This is the crayfish that I 3D modelled in Maya for the AR project that I have in the interactive section of this portfolio. He was one of the first complex organic shapes I have ever modelled and it was a fun experience.')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/AR Crayfish/cray still.png', 'This is the crayfish that I 3D modeled in Maya for the AR project that I have in the interactive section of this portfolio. He was one of the first complex organic shapes I have ever modeled and it was a fun experience.')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/AR Crayfish/cray still.png', 'This is the crayfish that I 3D modeled in Maya for the AR project that I have in the interactive section of this portfolio. He was one of the first complex organic shapes I have ever modeled and it was a fun experience.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/AR Crayfish/cray still.png" 
                     alt="" >
                     <p>2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/CAD/robots.png', 'These are three of the four robots that I made for the Leatherbacks combat robotics team at UMD. They were all fought in the one pound category, and are in order of oldest to newest. The first robot, Thermonuclear Wedgie, was a flipper, and used a servo to lift bots. This one I built on team. The zipties were suprisingly functional. The second bot is called Slither.io, and I built it on my own, as my first bot with a weapon. I though the mismatched eyes were funny at the time but if I were to print it again I would use the aligned version of the lid. Also the laser jet stopped early. The last is the most recent one that I also designed by myself, and it is modelled after a lawn mower. I actually won all but one of my matchups in this competition, and beat the front runner because his battery caught fire. All of these were modelled by me in Fusion 360 or Solidworks, at then were 3D printed, resin printed, or cut with a lasercutter or waterjet. Then I configured and soldered the electronics and assembled everything. They were not programmed because we manually competed with them.')">
+                <div class="thumbnail" onclick="displayMainImage('media/CAD/robots.png', 'These are three of the four robots that I made for the Leatherbacks combat robotics team at UMD. They were all fought in the one pound category, and are in order of oldest to newest. The first robot, Thermonuclear Wedgie, was a flipper, and used a servo to lift bots. This one I built with a team. The second bot is called Slither.io, and I built it on my own, as my first bot with a weapon. The last is the most recent one that I also designed by myself, and it is modeled after a lawn mower. I actually won all but one of my matchups in this competition, and beat the front runner because his battery caught fire. All of these were modeled by me in Fusion 360 or Solidworks, at then were 3D printed, resin printed, or cut with a lasercutter or waterjet. Then I configured and soldered the electronics and assembled everything. They were not programmed because we manually competed with them.')" onmouseover=
+                "hoverMainImage('media/CAD/robots.png', 'These are three of the four robots that I made for the Leatherbacks combat robotics team at UMD. They were all fought in the one pound category, and are in order of oldest to newest. The first robot, Thermonuclear Wedgie, was a flipper, and used a servo to lift bots. This one I built with a team. The second bot is called Slither.io, and I built it on my own, as my first bot with a weapon. The last is the most recent one that I also designed by myself, and it is modeled after a lawn mower. I actually won all but one of my matchups in this competition, and beat the front runner because his battery caught fire. All of these were modeled by me in Fusion 360 or Solidworks, at then were 3D printed, resin printed, or cut with a lasercutter or waterjet. Then I configured and soldered the electronics and assembled everything. They were not programmed because we manually competed with them.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/CAD/robots.png" 
                     alt="" >
                     <p>2022-2023</p>
                 </div>
                 
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/CAD/fish feeder.jpg', 'This is the CAD for the fishfeeder I designed to automatically feed my fish while I am not home. It was made in Solidworks, and utilizes an arduino to control the food release with a small motor.')">
+                <div class="thumbnail" onclick="displayMainImage('media/CAD/fish feeder.jpg', 'This is the CAD for the fish feeder I designed to automatically feed my fish while I am not home. It was made in Solidworks, and utilizes an arduino to control the food release with a small motor.')" onmouseover=
+                "hoverMainImage('media/CAD/fish feeder.jpg', 'This is the CAD for the fish feeder I designed to automatically feed my fish while I am not home. It was made in Solidworks, and utilizes an arduino to control the food release with a small motor.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/CAD/fish feeder.jpg"
                      alt="Digital Art" >
                     <p >2022</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover= 
-                "displayMainImage('media/Gameinteractivegenerative/space game/player.png', 'This is the main character from the space game that I made for my game programming class. It was made in Maya.')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/space game/player.png', 'This is the main character from the space game that I made for my game programming class. It was made in Maya. I also modeled all of the other characters in in the game, which you can view in the interactive tab.')" onmouseover= 
+                "hoverMainImage('media/Gameinteractivegenerative/space game/player.png', 'This is the main character from the space game that I made for my game programming class. It was made in Maya. I also modeled all of the other characters in in the game, which you can view in the interactive tab.')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/space game/player.png" 
                     alt=""  >
                     <p>2023</p>

@@ -24,7 +24,7 @@
                 <li><a href="digital.html">Digital</a></li>
                 <li><a href="sculpture.html">Sculpture</a></li>
                 <li><a href="3Dmodels.html">3D Models</a></li>
-                <li><a style="color:rgb(28, 16, 10)" href="Interactive.html">Interactive Art, Games, and Animations</a></li>
+                <li><a style="color:rgb(211, 71, 36);" href="Interactive.html">Interactive Art, Games, and Animations</a></li>
                
              
             </ul>
@@ -38,7 +38,14 @@
             
            <div id="main-display-wrapper">
             <div class="main-display"><img src="media/Gameinteractivegenerative/50s room/old fashioned room.png",  alt="Main Display" id="main-display"></div>
-            <div class="main-display" id="main-display-text">This is a 50s theme room that I 3D modelled and used Unity to activate and animate. I used unity to make it so that when exist in the space, you can hear sound from the tv, phonograph, and radio, but upon viewing any of the animated or sound playing elements of the scene, they freeze and are silenced. CLick this link to view the program:
+            
+            <div class="main-display-text" id="main-display-text">
+                <div id="main-display-link">
+                    <iframe id="iframe" width="420" height="260" src="//www.youtube.com/embed/tqBcjiIrhf0?si=myZWtTaoZYEDkcew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
+                </div>
+                <div id ="just-text">
+                This is a 50s themed room that I 3D modeled and used Unity to activate and animate. I used unity to make it so that when exist in the space, you can hear sound from the tv, phonograph, and radio, but upon viewing any of the animated or sound playing elements of the scene, they freeze and are silenced.
+                </div>
             </div>
             </div>
             
@@ -47,81 +54,99 @@
             <hr>
             <!--<p style = "text-align: center">............................................................................................................................</p>-->
             <div class="gallery">
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/50s room/old fashioned room.png', 'This is a 50s theme room that I 3D modelled and used Unity to activate and animate. I used unity to make it so that when exist in the space, you can hear sound from the tv, phonograph, and radio, but upon viewing any of the animated or sound playing elements of the scene, they freeze and are silenced. CLick this link to view the program:')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/50s room/old fashioned room.png', 'This is a 50s themed room that I 3D modeled and used Unity to activate and animate. I used Unity to make it so that when exist in the space, you can hear sound from the tv, phonograph, and radio, but upon viewing any of the animated or sound playing elements of the scene, they freeze and are silenced.', '//www.youtube.com/embed/tqBcjiIrhf0?si=myZWtTaoZYEDkcew')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/50s room/old fashioned room.png', 'This is a 50s themed room that I 3D modeled and used Unity to activate and animate. I used Unity to make it so that when exist in the space, you can hear sound from the tv, phonograph, and radio, but upon viewing any of the animated or sound playing elements of the scene, they freeze and are silenced.', '//www.youtube.com/embed/tqBcjiIrhf0?si=myZWtTaoZYEDkcew')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/50s room/old fashioned room.png" 
                     alt="Traditional Art" >
                     <p >2023</p>
                 </div>
                
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/ball explosion/Screenshot 2024-01-14 002446.png', 'This is an interactive &quot;quotesball explosion&quot;quotes work, in which you can aim a green laser pointer at the ball and cause it to explode into smaller balls and bounce on the ground. This was made in touchdesigner, and the link to the video is here:')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/ball explosion/Screenshot 2024-01-14 002446.png', 'This is an interactive &quot;ball explosion&quot; work, in the presentation of which the user is given a green laser pointer to point at the projection on a large wall, and upon pointing it at the ball it explodes into a particle system of smaller balls that bounce on the ground. The example video is the mouse version, since I did not get a video while presenting on the wall. This was made in Touchdesigner.', '//www.youtube.com/embed/V1OhpI5BmAI?si=mvS6EH8oElSQELM6')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/ball explosion/Screenshot 2024-01-14 002446.png', 'This is an interactive &quot;ball explosion&quot; work, in the presentation of which the user is given a green laser pointer to point at the projection on a large wall, and upon pointing it at the ball it explodes into a particle system of smaller balls that bounce on the ground. The example video is the mouse version, since I did not get a video while presenting on the wall. This was made in Touchdesigner.', '//www.youtube.com/embed/V1OhpI5BmAI?si=mvS6EH8oElSQELM6')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/ball explosion/Screenshot 2024-01-14 002446.png"
                      alt="Digital Art" >
                     <p >2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/AR Crayfish/crayfish stuff.png', 'This is a crayfish AR experience, made in Maya and Unity, based of of my childhood experience with my father throwing my pet crayfish through the front door of my house. I painted a rendition of a house (not my own, but it has the same vibes), with my father in the front door, and my crayfish is animated exiting the door and wandering away in the middle of the night.')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/AR Crayfish/crayfish stuff.png', 'This is an AR experience, modeled in Maya and implemented in Unity, based off of a personal story about my escaped crayfish. I painted a rendition of a house with my father in the front door, and my crayfish is animated exiting the door and wandering away. When you scan the painting with a camera using the Unity application, the animation pops up.', 'https://youtube.com/embed/Ex4pP7nEJC8?si=KY5QL6oY5ZiKNanW')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/AR Crayfish/crayfish stuff.png', 'This is an AR experience, modeled in Maya and implemented in Unity, based off of a personal story about my escaped crayfish. I painted a rendition of a house with my father in the front door, and my crayfish is animated exiting the door and wandering away. When you scan the painting with a camera using the Unity application, the animation pops up.', 'https://youtube.com/embed/Ex4pP7nEJC8?si=KY5QL6oY5ZiKNanW')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/AR Crayfish/crayfish stuff.png"
                      alt="Digital Art" >
                     <p >2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=                     
-                "displayMainImage('media/Gameinteractivegenerative/octopus/octopus screenshot.png', 'This is a generative animation that I made in Touchdesigner using node based programming. It is an environment inspired by the song Octopuses Garden by the Beatles, and is animated to the beat. Here is a link to the video: .')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/octopus/octopus screenshot.png', 'This is a generative animation that I made in Touchdesigner using node based programming. It is an environment inspired by the song Octopuses Garden by the Beatles, and is animated to the beat.', 'https://www.youtube.com/embed/C3-17ev5SUE?si=8uCC-h3-4Zy_O7a-')" onmouseover=                     
+                "hoverMainImage('media/Gameinteractivegenerative/octopus/octopus screenshot.png', 'This is a generative animation that I made in Touchdesigner using node based programming. It is an environment inspired by the song Octopuses Garden by the Beatles, and is animated to the beat.', 'https://www.youtube.com/embed/C3-17ev5SUE?si=8uCC-h3-4Zy_O7a-')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/octopus/octopus screenshot.png" 
                     alt="Sculpture Art"  >
                     <p>2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/space game/game.png', 'This is collection of 3D models that I collected and animated in Maya for my game programming class. I also programmed the animation to work at the correct times. Please click this link to watch the video of the full game and the animations.')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/space game/game.png', 'This is collection of 3D models that I collected and animated in Maya for my game programming class. I also programmed the animations in the Unity implementation of the game. This video is a full playthrough of the game.', 'https://www.youtube.com/embed/tHqHp1Tqkqo?si=YVyYhIGHCTRCGsPw')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/space game/game.png', 'This is collection of 3D models that I collected and animated in Maya for my game programming class. I also programmed the animations in the Unity implementation of the game. This video is a full playthrough of the game.', 'https://www.youtube.com/embed/tHqHp1Tqkqo?si=YVyYhIGHCTRCGsPw')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/space game/game.png" 
                     alt="" >
                     <p>2023</p>
                 </div>
                 
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/bee game vr/beegame both.png', 'These are a couple screenshots from a VR game that I made in one of my earliest immersive media design classes. It is made to teach users about the experience of life and death of bees, and their environment and values to it. ')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/bee game vr/beegame both.png', 'These are a couple screenshots from a VR game that I made in one of my earliest immersive media design classes. It is made to teach users about the experience of life and death of bees, and their environment and values to it.', 'https://www.facebook.com/100073989854759/videos/551760983772362/')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/bee game vr/beegame both.png', 'These are a couple screenshots from a VR game that I made in one of my earliest immersive media design classes. It is made to teach users about the experience of life and death of bees, and their environment and values to it. ', 'https://www.facebook.com/100073989854759/videos/551760983772362/')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/bee game vr/beegame both.png" 
                     alt="" >
                     <p>2022</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/bleeding.png', 'This is a still of a bleeding animation that is generative and randomized in Touchdesigner.')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/bleeding.png', 'This is a still of a bleeding animation that is generative and randomized in Touchdesigner.', 'https://www.youtube.com/embed/OOar67LVEwM?si=LkRDNvrBJl4ujaJS')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/bleeding.png', 'This is a still of a bleeding animation that is generative and randomized in Touchdesigner.', 'https://www.youtube.com/embed/OOar67LVEwM?si=LkRDNvrBJl4ujaJS')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/bleeding.png"
                      alt="Digital Art" >
                     <p >2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/marionette/marionette all.png', 'I call this game &quot;The puppeteer.&quot; It is a game that utilizes the new Google Media Pipe program in order to send data to be analyzed as soon as possible, to receive information about the location and position of the users hand. It will then move the marionette based on the users movement and the friction of the ground within the game. At the original page it will show you options to use the keyboaord or the camera alongside the keyboard input or the keyboard keys. Then you will either use your hand to control the output of the average, or you will us the keyboard to control your position.')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/marionette/marionette all.png', 'I made this game in Unity as a test for the free AI gesture software Mediapipe, and I originally wanted to track the hand of the user in real time and have them use their hand to control the marionette. I did want to make the main aspect of the game the fact that it is very hard to control, as the goal is just to walk to the back of the room, but the gesture based implementation was extremely hard to control, so this video is of the keyboard based controls, which is still very hard to control. I also modeled everything in the scene myself in Maya.                ', 'https://www.youtube.com/embed/tFfO9tyeQ1c?si=HtRHidNX5Rg359uY')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/marionette/marionette all.png', 'I made this game in Unity as a test for the free AI gesture software Mediapipe, and I originally wanted to track the hand of the user in real time and have them use their hand to control the marionette. I did want to make the main aspect of the game the fact that it is very hard to control, as the goal is just to walk to the back of the room, but the gesture based implementation was extremely hard to control, so this video is of the keyboard based controls, which is still very hard to control. I also modeled everything in the scene myself in Maya.                ', 'https://www.youtube.com/embed/tFfO9tyeQ1c?si=HtRHidNX5Rg359uY')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/marionette/marionette all.png"
                      alt="Digital Art" >
                     <p >2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/busy bee.png', 'This is a game in which you have to race to collect honey dots in space like gravity. You have to bounce around on the edges of the game and the rectangles, and as you play the dots blend in more and more with the background. I had a fun time programming the physics, ad you can play the game if you use this link: .')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/busy bee.png', 'This is a game in which you have to race to collect honey dots in space like gravity. You have to bounce around on the edges of the game and the rectangles, and as you play the dots blend in more and more with the background. I had a fun time programming the physics, and you can play the game if you use this link: https://editor.p5js.org/zopopp/sketches/pOt_kr_Ez.', 'https://www.youtube.com/embed/x18LpoXBHXw?si=CwGJTAwZKDCaco5Q')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/busy bee.png', 'This is a game in which you have to race to collect honey dots in space like gravity. You have to bounce around on the edges of the game and the rectangles, and as you play the dots blend in more and more with the background. I had a fun time programming the physics, and you can play the game if you use this link: https://editor.p5js.org/zopopp/sketches/pOt_kr_Ez.', 'https://www.youtube.com/embed/x18LpoXBHXw?si=CwGJTAwZKDCaco5Q')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/busy bee.png"
                      alt="Digital Art" >
                     <p >2022</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/kirbo.png', 'This is a physics simulation in the form of Kirby, who behaves like a massive attractive object in space, and the cakes are pulled into his gravity. If you follow this link you can see the video: .')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/kirbo.png', 'This is a physics simulation in the form of Kirby, who behaves like a massive attractive object in space, and the cakes are pulled into his gravity.', 'https://www.youtube.com/embed/DaZZxHJNktI?si=Ir4GM2qPmGmUuHL1')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/kirbo.png', 'This is a physics simulation in the form of Kirby, who behaves like a massive attractive object in space, and the cakes are pulled into his gravity.', 'https://www.youtube.com/embed/DaZZxHJNktI?si=Ir4GM2qPmGmUuHL1')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/kirbo.png"
                      alt="Digital Art" >
                     <p >2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/mortal kondiments.png', 'This is one of my first ever attempted animations. It was fun - it is not a traditional animation since we had to use Premiere Pro and make it of a certain length. It is an animation based on the game Mortal Kombat, called &quot;Mortal Kondiments.&quot;. You can watch it if you follow this link: .')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/mortal kondiments.png', 'This is one of my first ever attempted animations. It was fun - it is not a traditional animation since we had to use Premiere Pro and make it of a certain length. It is an animation based on the game Mortal Kombat, called &quot;Mortal Kondiments.&quot;.', 'https://www.youtube.com/embed/Omb0u-k6K7I?si=FAvR6D4oN61yRr92')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/mortal kondiments.png', 'This is one of my first ever attempted animations. It was fun - it is not a traditional animation since we had to use Premiere Pro and make it of a certain length. It is an animation based on the game Mortal Kombat, called &quot;Mortal Kondiments.&quot;.', 'https://www.youtube.com/embed/Omb0u-k6K7I?si=FAvR6D4oN61yRr92')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/mortal kondiments.png"
                      alt="Digital Art" >
                     <p >2023</p>
                 </div>
-                <div class="thumbnail" onclick="" onmouseover=
-                "displayMainImage('media/Gameinteractivegenerative/comp vision.png', 'This is the first program that I made in Unity, that tracks color and places this butterfly in the average location of all of the pixels within that range on the screen it was a difficult and fun assignment because it was a big jump from what I had previously been doing. You can watch the video if you follow this link:', 'https://youtu.be/HjsPX0C3Xcs')">
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/comp vision.png', 'This is the first program that I made in Unity, that tracks color and places this butterfly in the average location of all of the pixels within that range on the screen it was a difficult and fun assignment because it was a big jump from what I had previously been doing.', 'https://www.youtube.com/embed/HjsPX0C3Xcs?si=Ip6MTojjQZHHUkvi')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/comp vision.png', 'This is the first program that I made in Unity, that tracks color and places this butterfly in the average location of all of the pixels within that range on the screen it was a difficult and fun assignment because it was a big jump from what I had previously been doing.', 'https://www.youtube.com/embed/HjsPX0C3Xcs?si=Ip6MTojjQZHHUkvi')"
+                onmouseout="resetToClickedImage()">
                     <img width = 150 src="media/Gameinteractivegenerative/comp vision.png"
                      alt="Digital Art" >
                     <p >2023</p>
                 </div>
-                
+                <div class="thumbnail" onclick="displayMainImage('media/Gameinteractivegenerative/clock.png', 'This is an ostrich clock that I modeled in Maya and animated/programmed in Unity and to be an accurate clock. It usually only does the cuckoo at the hour, but I made it constant for the video.', 'https://www.youtube.com/embed/qYnpiBTF9jE?si=rJAPeALhVVtC7gLl')" onmouseover=
+                "hoverMainImage('media/Gameinteractivegenerative/clock.png', 'This is an ostrich clock that I modeled in Maya and animated/programmed in Unity and to be an accurate clock. It usually only does the cuckoo at the hour, but I made it constant for the video.', 'https://www.youtube.com/embed/qYnpiBTF9jE?si=rJAPeALhVVtC7gLl')"
+                onmouseout="resetToClickedImage()">
+                    <img width = 150 src="media/Gameinteractivegenerative/clock.png"
+                     alt="Digital Art" >
+                    <p >2023</p>
+                </div>
               
             </div>
             <hr>
